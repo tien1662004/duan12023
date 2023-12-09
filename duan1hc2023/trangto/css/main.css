@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* .container {
+    height: 3000px;
+} */
+ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    font-size: 20px;
+    background-image: url('trangto/image/banner.png');
+    background-size: cover;
+    background-position: center;
+}
+.logo {
+    width: 140px;
+    height: 140px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu ul li a:hover {
+    color: aqua;
+}
+.menu ul li {
+    float: left;
+    padding:0 20px ;
+}
+header .seach input{
+    padding-left: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+header .icon i{
+    padding: 10px;
+}
+.content{
+    width: 90%;
+    margin: auto;
+}
+.chinhsach{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.chinhsach-hanghoa {
+    width: 220px;
+    display: flex;
+    align-items: center;
+}
+.chinhsach-hanghoa img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.chinhsach-hanghoa.text {
+    margin-left: 10px;
+}
+.danhmuc {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+.danhmuc_img img{
+    width: 250px;
+    border-radius: 5%;
+    position: absolute;
+}
+.danhmuc_img h3 {
+    width: 250px;
+    font-weight: 600;
+    line-height: 1.4;
+    background: rgba(255,255,255,0.68);
+    text-align: center;
+    position: relative;
+    top: 240px;
+}
+.danhmuc_img h3 a {
+    color: #000;
+}
+.danhmuc_img h3 a:hover {
+    color: #ffc107;
+    transition:0.7s;
+}
+.danhmucyeuthich{
+    width: 100%;
+    border: 2px solid #ffc107;
+}
+.danhmuctop5sp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 46.5px;
+}
+.danhmucyeuthich h2 {
+    margin: 15px 0;
+    text-align: center;
+}
+.danhmuc_content{
+    width: 170px;
+    line-height: 1.5;
+    margin: 10px 0;
+    text-align: center;
+}
+.danhmuc_content img {
+    width: 170px;
+    height: 170px;
+    border-radius: 5%;
+}
+.banner_2 img{
+    margin: 20px 0;
+    border: 1px solid #ffc107;
+    width: 100%;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    background-color: antiquewhite;
+}
+.footer_h{
+    width: 90%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_a{
+    width: 22%;
+    padding: 10px 0;
+}
+.footer_a p {
+    padding-top:10px ;
+}
+.footer_a img{
+    margin-left: -20px
+}
+.abc input{
+    width: 700px;
+}
+
